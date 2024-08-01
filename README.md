@@ -6,10 +6,11 @@ In Program.cs we would like you to implement the following formula: ![Cover cost
 
 Here is an example of what we are trying to achieve:
 
-Bob donates $100, Bob is great.
-With Credit card processing there are always two parts to charging a card, the percenate and flat fees. Normally we see around 2.9% and 30 cents.
-In this example we will be using 3% and 30 cents.
-The donation will end up only being $96.70 after fees.
-Bob would like to cover the costs!
-The formula above will allow the nonprofit to recieve the full $100.
+- Bob donates $100, Bob is great.
+- With Credit card processing there are always two parts to charging a card, the percenate and flat fees. Normally we see around 2.9% and 30 cents.
+- In this example we will be using 3% and 30 cents.
+- The donation will end up only being $96.70 after fees.
+- Bob would like to cover the costs!
+- The formula above will allow the nonprofit to recieve the full $100.
+
 What is the final donation Bob will make after covering costs?

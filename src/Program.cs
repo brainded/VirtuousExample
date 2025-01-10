@@ -1,18 +1,14 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿Console.WriteLine("How much would you like to Donate?");
 
-Console.WriteLine("Hey welcome to checkout, what was the subtotal?");
-
-var subtotal = Console.ReadLine();
+var donationAmount = Console.ReadLine();
 
 Console.WriteLine("Calculating covered costs...");
-var costs = GetDonorCoveredCosts(subtotal);
 
-Console.WriteLine($"The donor covered costs are {costs}");
+var adjustedDonationAmount = GetDonorCoveredCosts(donationAmount);
 
-var total = subtotal + costs;
-Console.WriteLine($"Thanks your total is 👋");
+Console.WriteLine($"The total donation with costs covered is {adjustedDonationAmount}");
 
-object GetDonorCoveredCosts(string? subtotal)
+object GetDonorCoveredCosts(object donationAmount)
 {
     throw new NotImplementedException();
 }
